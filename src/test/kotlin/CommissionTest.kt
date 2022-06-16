@@ -6,7 +6,7 @@ class CommissionTest {
 
     @Test
     fun VK_PAY_commission() {
-        assertEquals(30, commission(1000_00))
+        assertEquals(0, commission(1000_00))
         assertEquals(0, commission(50_00, 1000_00, accountType = "Another"))
         assertEquals(0, commission(10_000_00, 1000_00))
     }
