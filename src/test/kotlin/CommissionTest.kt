@@ -24,4 +24,9 @@ class CommissionTest {
         assertEquals(63750, commission(85_000_00, accountType =  MIR))
         assertEquals(63750, commission(85_000_00, accountType =  VISA))
     }
+
+    @Test
+    fun testMain() {
+        main()
+    }
 }
