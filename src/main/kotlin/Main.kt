@@ -9,7 +9,10 @@ fun main() {
     pay(8000_00, 0, MASTERCARD)
     pay(8000_00, 100_000_00, MASTERCARD)
     pay(10_000_00, accountType = MIR)
-//    pay()
+
+    val array = arrayOf(1,2,3)
+    for (i in 0..3)
+        print(array[i] * 3)
 }
 
 fun commission(amount: Int, sentInCurrentMonth: Int = 0, accountType: String = VK_PAY): Int {
