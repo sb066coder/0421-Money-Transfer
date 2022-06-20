@@ -11,7 +11,7 @@ fun main() {
     pay(10_000_00, accountType = MIR)
 
     val array = arrayOf(1,2,3)
-    for (i in 0..3)
+    for (i in 0..2)
         print(array[i] * 3)
 }
 
